@@ -1,0 +1,15 @@
+[submodule "templates/Nethereum.Templates.Siwe"]
+	path = templates/Nethereum.Templates.Siwe
+	url = https://github.com/Nethereum/Nethereum.Templates.Siwe
+[submodule "templates/Nethereum.Templates.Metamask.Blazor"]
+	path = templates/Nethereum.Templates.Metamask.Blazor
+	url = https://github.com/Nethereum/Nethereum.Templates.Metamask.Blazor
+[submodule "templates/Nethereum.Templates.SmartContracts.OZ-Erc721-Erc1155"]
+	path = templates/Nethereum.Templates.SmartContracts.OZ-Erc721-Erc1155
+	url = https://github.com/Nethereum/Nethereum.Templates.SmartContracts.OZ-Erc721-Erc1155
+[submodule "templates/Nethereum.Templates.SmartContractDefault"]
+	path = templates/Nethereum.Templates.SmartContractDefault
+	url = https://github.com/Nethereum/Nethereum.Templates.SmartContractDefault
+[submodule "templates/Nethereum.Templates.WebSocketStreaming"]
+	path = templates/Nethereum.Templates.WebSocketStreaming
+	url = https://github.com/Nethereum/Nethereum.Templates.WebSocketStreaming
