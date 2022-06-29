@@ -1,5 +1,5 @@
 # Nethereum.Templates.Pack
-Template pack for NuGets
+Template pack for NuGets, check the templates folder for individual templates
 
 ## Templates included
 
