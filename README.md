@@ -1,6 +1,17 @@
 # Nethereum.Templates.Pack
 Template pack for NuGets
 
+## Templates included
+
+```
+Template Name                                                  Short Name           Language  Tags
+-------------------------------------------------------------  -------------------  --------  -----------------------------------------------------
+Nethereum Blazor Metamask Wasm-Server Projects                 nethereum-mm-blazor  [C#]      Nethereum/Blazor/Metamask
+Nethereum Blazor SIWE Wasm/Server/RestApi Projects             nethereum-siwe       [C#]      Nethereum/SIWE/Blazor/Metamas/RestApi
+Nethereum Default Smart contract Library / XUnit ERC20 sample  smartcontract        [C#]      Nethereum/Smart contracts
+Nethereum ERC721, ERC1155 Open Zeppelin and  XUnit Projects    nethereum-erc721-oz  [C#]      Nethereum/Smart contracts/OpenZeppelin/ERC721/ERC1155
+Nethereum WebSocket Streaming Examples                         nethereum-ws-stream  [C#]      Nethereum/WebSocketStreaming
+```
 ## Submodules update
 Each template is in an individual repository (submodule) to update
 
