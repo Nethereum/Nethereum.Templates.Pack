@@ -12,6 +12,11 @@ Nethereum Default Smart contract Library / XUnit ERC20 sample  smartcontract    
 Nethereum ERC721, ERC1155 Open Zeppelin and  XUnit Projects    nethereum-erc721-oz  [C#]      Nethereum/Smart contracts/OpenZeppelin/ERC721/ERC1155
 Nethereum WebSocket Streaming Examples                         nethereum-ws-stream  [C#]      Nethereum/WebSocketStreaming
 ```
+
+## Installation from Nuget
+
+```dotnet new -i Nethereum.Templates.Pack```
+
 ## Submodules update
 Each template is in an individual repository (submodule) to update
 
