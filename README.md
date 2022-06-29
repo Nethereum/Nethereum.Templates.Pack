@@ -15,6 +15,8 @@ Nethereum WebSocket Streaming Examples                         nethereum-ws-stre
 
 ## Installation from Nuget
 
+https://www.nuget.org/packages/Nethereum.Templates.Pack/
+
 ```dotnet new -i Nethereum.Templates.Pack```
 
 ## Submodules update
