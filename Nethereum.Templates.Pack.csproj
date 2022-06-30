@@ -7,7 +7,12 @@
     <Authors>Juan Blanco</Authors>
     <Description>Templates to use with Netheruem.</Description>
     <PackageTags>dotnet-new;templates;nethereum;ethereum;siwe;metamask;smart contract;NFTs;ERC20,ERC721, ERC1155;blazor;</PackageTags>
-
+   <PackageIconUrl>https://raw.githubusercontent.com/Nethereum/Nethereum/master/logos/logo64x64.png</PackageIconUrl>
+   <PackageIcon>images\logo64x64.png</PackageIcon>
+   <PackageProjectUrl>https://nethereum.com</PackageProjectUrl>
+   <RepositoryType>git</RepositoryType>
+   <RepositoryUrl>https://github.com/Nethereum/Nethereum</RepositoryUrl>
+   <Copyright>Nethereum.com (Juan Blanco) 2015-2022</Copyright>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
@@ -15,6 +20,16 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
 
+<PropertyGroup>
+  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Condition="Exists('LICENSE.md')" Include="LICENSE.md" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+</ItemGroup>
+<ItemGroup>
+    <None Condition="Exists('images\logo64x64.png')"  Include="images\logo64x64.png" Pack="true" Visible="false" PackagePath="images\logo64x64.png" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
